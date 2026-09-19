@@ -896,6 +896,20 @@
         }
       }
     });
+
+    var copyBioBtn = el('copyBioBtn');
+    if (copyBioBtn) {
+      copyBioBtn.addEventListener('click', function () {
+        var bioToCopy = "Sachintha Shyamika | Full-Stack Developer & Software Engineering Undergraduate (HNDIT)\nPortfolio: https://shamikakkss.me/\nContact: shamikakkss@gmail.com | +94 76 083 5913";
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(bioToCopy).then(function () {
+            toast('Bio copied to clipboard!');
+          }).catch(function () {
+            toast('Could not copy bio to clipboard.');
+          });
+        }
+      });
+    }
   }
 
   jQuery(function () {

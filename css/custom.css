@@ -1569,6 +1569,7 @@ body {
   background: transparent !important;
   border-top: 1px solid rgba(56, 189, 248, 0.18) !important;
   padding: 40px 0 32px !important;
+  margin-top: 80px !important;
 }
 
 .uf-footer-inner {
@@ -1627,6 +1628,17 @@ body {
   box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
   transform: translateY(-3px);
   text-decoration: none;
+}
+
+.uf-footer-socials .fiverr-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -0.5px;
 }
 
 .uf-footer-copy {
