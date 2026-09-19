@@ -167,7 +167,7 @@
         if (s) s.textContent = d.hero_subtitle;
       }
 
-      setCounter('stat-years', d.years_exp || '3+', 'Years Experience');
+      setCounter('stat-years', d.years_exp || '3+', 'Years Client Handling Experience');
       setCounter('stat-systems', d.deployed_systems || '10+', 'Deployed Systems');
       setCounter('stat-clients', d.freelance_clients || '40+', 'Global Freelance Clients');
       setCounter('stat-gpa', d.cgpa_value || '3.70', d.cgpa_label || 'HNDIT Cumulative GPA — Semester I–III');
@@ -219,7 +219,7 @@
             var years = (row.period || '').match(/\b(19|20)\d\d\b/g) || [];
             years.forEach(function (y) { if (+y < min) min = +y; });
           });
-          setCounter('stat-years', Math.max(1, new Date().getFullYear() - min) + '+', 'Years Experience');
+          setCounter('stat-years', Math.max(1, new Date().getFullYear() - min) + '+', 'Years Client Handling Experience');
         }
       }
     } catch (err) { /* stats stay at their static defaults */ }
