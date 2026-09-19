@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
+/* Google Fonts now loaded via <link> in <head> for performance (was @import) */
 body {
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -471,7 +471,7 @@ a, a:hover {
   left: 0;
   top: 0;
   margin-top: -130px;
-  background: #fff !important;
+  background: #0a0a0a !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   padding-top: 5px;
@@ -507,11 +507,11 @@ a, a:hover {
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a {
   display: block;
-  color: #000;
+  color: #fffdfd;
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a:hover, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a:hover {
-  color: #D63447;
+  color: #34c3d6;
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a:before, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a:before {
@@ -519,7 +519,7 @@ a, a:hover {
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a.active, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a.active {
-  color: #D63447;
+  color: #0cbaff;
 }
 
 .unslate_co--site-nav.scrolled .site-nav-ul > li > a.active:before, .unslate_co--site-nav.scrolled .site-nav-ul-none-onepage > li > a.active:before {
